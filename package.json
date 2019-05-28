@@ -1,0 +1,39 @@
+{
+  "name": "KE-Site",
+  "version": "1.0.0",
+  "description": "Kasper Engine - Site",
+  "author": "KASPER",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "analize": "nuxt build --analyze"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/vue-fontawesome": "^0.1.4",
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/proxy": "^1.3.1",
+    "@nuxtjs/sitemap": "^0.2.0",
+    "@vitalets/google-translate-api": "github:vitalets/google-translate-api",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "cross-env": "^5.2.0",
+    "google-translate-api": "^2.3.0",
+    "google-translate-token": "^1.0.0",
+    "material-icons": "^0.2.3",
+    "metacritic": "0.0.11",
+    "metacritic-scraper": "^0.3.4",
+    "nuxt": "^2.0.0",
+    "translate": "^1.0.3",
+    "translate-api": "^0.3.12",
+    "vue-plyr": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
